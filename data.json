@@ -1,0 +1,98 @@
+
+{
+    "nome"     : "Giulia",
+    "descricao": "gerenciamento e monitoramento de energia",
+    "monitorar": {
+        "quarto1": {
+            "tomada1": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 1000,
+                "alias": "tomada do computador"
+            },
+            "tomada2": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 100030002,
+                "alias": "televisão"
+            },
+            "tomada3": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 8970030002,
+                "alias": "condicionador de ar"
+            },
+            "lampada": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 1000,
+                "alias": ""
+            }
+        },
+        "quarto2": {
+            "tomada1": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 1000,
+                "alias": "tomada do computador"
+            },
+            "tomada2": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 100030002,
+                "alias": "televisão"
+            },
+            "tomada3": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 8970030002,
+                "alias": "ap. de som"
+            },
+            "lampada": {
+                "consumoDia": [],
+                "consumoSemana": [],
+                "consumoMes": [],
+                "tempo_ligada": 1000,
+                "alias": ""
+            }
+        }
+    },
+    "gerenciar":{
+        "quarto1": {
+            "tomada1": {
+                "ligado": "false"
+            },
+            "tomada2": {
+                "ligado": "false"
+            },
+            "tomada3": {
+                "ligado": "false"
+            },
+            "lampada": {
+                "ligado": "false"
+            }
+        },
+        "quarto2": {
+            "tomada1": {
+                "ligado": "false"
+            },
+            "tomada2": {
+                "ligado": "false"
+            },
+            "tomada3": {
+                "ligado": "false"
+            },
+            "lampada": {
+                "ligado": "false"
+            }
+        }
+    }
+
+}

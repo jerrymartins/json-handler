@@ -1,7 +1,7 @@
 var fs = require('fs'), obj
 
 // Read the file and send to the callback fucntion
-fs.readFile('./data/data.json', fileHandler)
+fs.readFile('data.json', fileHandler)
 
 /**
  * 
@@ -36,7 +36,7 @@ function fileHandler(err, data) {
 }
 
 function fileWrite(obj) {
-    fs.writeFile('./data/data.json', JSON.stringify(obj), (err) => {
+    fs.writeFile('data.json', JSON.stringify(obj), (err) => {
         if (err) throw err;
         console.log('Dados Salvos no arquivo');
     });
