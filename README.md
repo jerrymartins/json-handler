@@ -1,0 +1,1 @@
+inicialmente pretendo tornar este script capaz de ler um arquivo json, alterar seus dados, fazer consultas nos dados do arquivo json, realizar calculos e tarefas com base nas informações obtidas no arquivo. Uma espécie de lista persistida que funcionará como um banco de dados.
